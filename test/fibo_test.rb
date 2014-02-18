@@ -2,7 +2,7 @@ require "fibonacci"
 require "minitest/autorun"
 
 describe "a sequence of fibonacci numbers" do
-  it "is from 2/5/2014" do
+  it "sequence starting from 0" do
   #given an nth Fibonacci number
   @fibo = Fibonacci.new()
   #then the nth Fibonacci number is equivalent to the correct Fibonaaci number in sequence.
